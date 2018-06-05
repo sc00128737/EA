@@ -1,0 +1,142 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1528205398812' stop='1528205626189'>
+    <name>mEasy Application</name>
+    <title>mEasy Application</title>
+    <test-cases>
+        <test-case start='1528205398812' status='passed' stop='1528205626189'>
+            <name>TechM Locations</name>
+            <title>TechM Locations</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1528205400819' status='passed' stop='1528205423080'>
+                    <name>Launching Application</name>
+                    <title>Launching Application</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1528205423080' status='passed' stop='1528205442942'>
+                    <name>Entering Email ID</name>
+                    <title>Entering Email ID</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1528205442942' status='passed' stop='1528205463308'>
+                    <name>Entering Password</name>
+                    <title>Entering Password</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1528205463308' status='passed' stop='1528205471042'>
+                    <name>Tap on Login Button</name>
+                    <title>Tap on Login Button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1528205471042' status='passed' stop='1528205480863'>
+                    <name>Tap on Button</name>
+                    <title>Tap on Button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1528205480863' status='passed' stop='1528205488341'>
+                    <name>Tap on Button</name>
+                    <title>Tap on Button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1528205488341' status='passed' stop='1528205495850'>
+                    <name>Tap on Button</name>
+                    <title>Tap on Button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1528205495850' status='passed' stop='1528205503186'>
+                    <name>Tap on Button</name>
+                    <title>Tap on Button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1528205503186' status='passed' stop='1528205510694'>
+                    <name>Tap on Button</name>
+                    <title>Tap on Button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1528205510694' status='passed' stop='1528205518270'>
+                    <name>Tap on Button</name>
+                    <title>Tap on Button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1528205518270' status='passed' stop='1528205525650'>
+                    <name>Tap on Button</name>
+                    <title>Tap on Button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1528205525650' status='passed' stop='1528205533073'>
+                    <name>Tap on Button</name>
+                    <title>Tap on Button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1528205535087' status='passed' stop='1528205555921'>
+                    <name>Entering search term</name>
+                    <title>Entering search term</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1528205555921' status='passed' stop='1528205563790'>
+                    <name>Tap on search Button</name>
+                    <title>Tap on search Button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1528205565791' status='passed' stop='1528205574044'>
+                    <name>Tap on Asia Pacific</name>
+                    <title>Tap on Asia Pacific</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1528205574044' status='passed' stop='1528205581984'>
+                    <name>Tap on India</name>
+                    <title>Tap on India</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1528205581984' status='passed' stop='1528205589884'>
+                    <name>Tap on Pune</name>
+                    <title>Tap on Pune</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1528205589884' status='passed' stop='1528205597910'>
+                    <name>Tap on Home Button</name>
+                    <title>Tap on Home Button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1528205599931' status='passed' stop='1528205607716'>
+                    <name>Tap on logout button</name>
+                    <title>Tap on logout button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1528205607716' status='passed' stop='1528205615216'>
+                    <name>Tap on ok button</name>
+                    <title>Tap on ok button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1528205615216' status='passed' stop='1528205626189'>
+                    <name>Closing Application</name>
+                    <title>Closing Application</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

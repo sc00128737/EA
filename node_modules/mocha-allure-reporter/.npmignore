@@ -1,0 +1,6 @@
+## Temporary files dir
+test/e2e/results
+test/e2e/report
+
+# Dependency directory
+node_modules

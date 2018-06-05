@@ -1,0 +1,61 @@
+{
+  "_from": "appium-uiautomator2-server@1.x",
+  "_id": "appium-uiautomator2-server@1.1.0",
+  "_inBundle": false,
+  "_integrity": "sha1-sfAna4CAhdn5GWilOFWmkPlGZOY=",
+  "_location": "/appium-uiautomator2-server",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "appium-uiautomator2-server@1.x",
+    "name": "appium-uiautomator2-server",
+    "escapedName": "appium-uiautomator2-server",
+    "rawSpec": "1.x",
+    "saveSpec": null,
+    "fetchSpec": "1.x"
+  },
+  "_requiredBy": [
+    "/appium-uiautomator2-driver"
+  ],
+  "_resolved": "https://registry.npmjs.org/appium-uiautomator2-server/-/appium-uiautomator2-server-1.1.0.tgz",
+  "_shasum": "b1f0276b808085d9f91968a53855a690f94664e6",
+  "_spec": "appium-uiautomator2-server@1.x",
+  "_where": "D:\\DisneyMobileAutomation\\DisneyAutomation\\node_modules\\appium-uiautomator2-driver",
+  "author": {
+    "name": "https://github.com/appium"
+  },
+  "bugs": {
+    "url": "https://github.com/appium/appium-uiautomator2-server/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "A netty server with uiautomator2 handlers",
+  "devDependencies": {
+    "replace-in-file": "^3.1.0",
+    "yargs": "^10.1.1"
+  },
+  "homepage": "https://github.com/appium/appium-uiautomator2-server",
+  "keywords": [
+    "appium",
+    "android",
+    "uiautomator2"
+  ],
+  "license": "Apache-2.0",
+  "main": "index.js",
+  "name": "appium-uiautomator2-server",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/appium/appium-uiautomator2-server.git"
+  },
+  "scripts": {
+    "build": "./gradlew clean assembleServerDebug assembleServerDebugAndroidTest",
+    "bump-gradle-version": "node update-gradle-version.js --package-version=${npm_package_version} && git add app/build.gradle",
+    "move-apks": "rm -rf apks && mkdir -p apks && npm run move-server && npm run move-test",
+    "move-server": "cp app/build/outputs/apk/server/debug/appium-uiautomator2-server-v${npm_package_version}.apk ./apks",
+    "move-test": "cp app/build/outputs/apk/androidTest/server/debug/appium-uiautomator2-server-debug-androidTest.apk ./apks",
+    "version": "npm run bump-gradle-version && npm run build && npm run move-apks"
+  },
+  "version": "1.1.0",
+  "windowsBuildDir": "c:/tmp"
+}

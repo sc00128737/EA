@@ -1,0 +1,57 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "mEasy Application",
+    "children" : [ {
+      "name" : "Display Holiday List",
+      "uid" : "20476ff45e0c2377",
+      "parentUid" : "bce3cd9fbe6a7e93e88e7f0da8f1248a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1528204959874,
+        "stop" : 1528205178628,
+        "duration" : 218754
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Booking Audio Conference",
+      "uid" : "deb15bb2ec0df3cf",
+      "parentUid" : "bce3cd9fbe6a7e93e88e7f0da8f1248a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1528205178643,
+        "stop" : 1528205398781,
+        "duration" : 220138
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "TechM Locations",
+      "uid" : "285013f53f3df76b",
+      "parentUid" : "bce3cd9fbe6a7e93e88e7f0da8f1248a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1528205398812,
+        "stop" : 1528205626189,
+        "duration" : 227377
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Leaves",
+      "uid" : "318ce57e81433d81",
+      "parentUid" : "bce3cd9fbe6a7e93e88e7f0da8f1248a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1528205626204,
+        "stop" : 1528205856701,
+        "duration" : 230497
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "bce3cd9fbe6a7e93e88e7f0da8f1248a"
+  } ]
+}

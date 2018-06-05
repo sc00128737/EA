@@ -1,0 +1,340 @@
+{
+  "uid" : "deb15bb2ec0df3cf",
+  "name" : "Booking Audio Conference",
+  "fullName" : "mEasy Application.Booking Audio Conference",
+  "historyId" : "90ff75a81b5ec6ae46479d08f2498f6d",
+  "time" : {
+    "start" : 1528205178643,
+    "stop" : 1528205398781,
+    "duration" : 220138
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Launching Application",
+      "time" : {
+        "start" : 1528205180653,
+        "stop" : 1528205202724,
+        "duration" : 22071
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Entering Email ID",
+      "time" : {
+        "start" : 1528205202724,
+        "stop" : 1528205222556,
+        "duration" : 19832
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Entering Password",
+      "time" : {
+        "start" : 1528205222556,
+        "stop" : 1528205242639,
+        "duration" : 20083
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Tap on Login Button",
+      "time" : {
+        "start" : 1528205242639,
+        "stop" : 1528205250385,
+        "duration" : 7746
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Tap on Button",
+      "time" : {
+        "start" : 1528205250385,
+        "stop" : 1528205257915,
+        "duration" : 7530
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Tap on Button",
+      "time" : {
+        "start" : 1528205257915,
+        "stop" : 1528205265183,
+        "duration" : 7268
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Tap on Button",
+      "time" : {
+        "start" : 1528205265183,
+        "stop" : 1528205272590,
+        "duration" : 7407
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Tap on Button",
+      "time" : {
+        "start" : 1528205272590,
+        "stop" : 1528205279999,
+        "duration" : 7409
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Tap on Button",
+      "time" : {
+        "start" : 1528205279999,
+        "stop" : 1528205287550,
+        "duration" : 7551
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Tap on Button",
+      "time" : {
+        "start" : 1528205287550,
+        "stop" : 1528205294954,
+        "duration" : 7404
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Tap on Button",
+      "time" : {
+        "start" : 1528205294954,
+        "stop" : 1528205302356,
+        "duration" : 7402
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Tap on Button",
+      "time" : {
+        "start" : 1528205302356,
+        "stop" : 1528205309801,
+        "duration" : 7445
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Entering search term",
+      "time" : {
+        "start" : 1528205311823,
+        "stop" : 1528205332328,
+        "duration" : 20505
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Tap on search Button",
+      "time" : {
+        "start" : 1528205332328,
+        "stop" : 1528205340074,
+        "duration" : 7746
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Entering Conference Name",
+      "time" : {
+        "start" : 1528205342080,
+        "stop" : 1528205362413,
+        "duration" : 20333
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Tap on Home Button",
+      "time" : {
+        "start" : 1528205362413,
+        "stop" : 1528205370423,
+        "duration" : 8010
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Tap on logout button",
+      "time" : {
+        "start" : 1528205372446,
+        "stop" : 1528205380172,
+        "duration" : 7726
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Tap on ok button",
+      "time" : {
+        "start" : 1528205380172,
+        "stop" : 1528205387824,
+        "duration" : 7652
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Closing Application",
+      "time" : {
+        "start" : 1528205387824,
+        "stop" : 1528205398781,
+        "duration" : 10957
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 19,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "mEasy Application"
+  }, {
+    "name" : "testClass",
+    "value" : "mEasy Application"
+  }, {
+    "name" : "testMethod",
+    "value" : "Booking Audio Conference"
+  }, {
+    "name" : "package",
+    "value" : "mEasy Application"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "deb15bb2ec0df3cf.json",
+  "parameterValues" : [ ]
+}

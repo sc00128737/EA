@@ -1,0 +1,37 @@
+{
+  "name": "RedBuswithNodeJS",
+  "version": "0.0.1",
+  "description": "RedBus project",
+  "dependencies": {
+    "allure-commandline": "2.5.0",
+    "androidmanifest": "2.0.0",
+    "appium-controller": "1.1.6",
+    "appium-uiautomator2-driver": "1.1.0",
+    "aws-sdk": "2.216.1",
+    "chai": "4.1.2",
+    "chai-as-promised": "7.1.1",
+    "mocha": "5.0.0",
+    "mocha-allure-reporter": "1.3.2",
+    "mocha.parallel": "0.15.5",
+    "mochawesome": "3.0.2",
+    "mochawesome-report-generator": "3.1.1",
+    "mochawesome-screenshots": "1.5.9",
+    "node-uuid": "1.4.8",
+    "wd": "1.5.0",
+    "webdriverio": "4.10.1"
+  },
+  "devDependencies": {
+    "npm-run-all": "4.1.2",
+    "wdio-appium-service": "0.2.3"
+  },
+  "scripts": {
+
+    "test": "mocha ./Tests/test*.js --reporter mocha-allure-reporter",
+    "GenerateReport": "allure generate allure-results --clean -o allure-report && allure open allure-report",
+    "testmEasy":  "mocha ./Tests/MEasy*.js --reporter mocha-allure-reporter && npm run GenerateReport"
+  
+
+  },
+  "author": "Sanket",
+  "license": "ISC"
+}

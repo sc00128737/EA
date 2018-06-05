@@ -1,0 +1,51 @@
+{
+  "_from": "io.appium.settings@^2.4.0",
+  "_id": "io.appium.settings@2.4.0",
+  "_inBundle": false,
+  "_integrity": "sha1-U2nVBW3GJjhgeRvLr3Twy8u+wys=",
+  "_location": "/io.appium.settings",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "io.appium.settings@^2.4.0",
+    "name": "io.appium.settings",
+    "escapedName": "io.appium.settings",
+    "rawSpec": "^2.4.0",
+    "saveSpec": null,
+    "fetchSpec": "^2.4.0"
+  },
+  "_requiredBy": [
+    "/appium-android-driver"
+  ],
+  "_resolved": "https://registry.npmjs.org/io.appium.settings/-/io.appium.settings-2.4.0.tgz",
+  "_shasum": "5369d5056dc6263860791bcbaf74f0cbcbbec32b",
+  "_spec": "io.appium.settings@^2.4.0",
+  "_where": "D:\\DisneyMobileAutomation\\DisneyAutomation\\node_modules\\appium-android-driver",
+  "author": {
+    "name": "https://github.com/appium"
+  },
+  "bugs": {
+    "url": "https://github.com/appium/io.appium.settings/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "App for dealing with Android settings",
+  "homepage": "https://github.com/appium/io.appium.settings",
+  "keywords": [
+    "appium",
+    "android",
+    "settings"
+  ],
+  "license": "Apache-2.0",
+  "main": "index.js",
+  "name": "io.appium.settings",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/appium/io.appium.settings.git"
+  },
+  "scripts": {
+    "prepublish": "./gradlew clean assembleDebug"
+  },
+  "version": "2.4.0"
+}

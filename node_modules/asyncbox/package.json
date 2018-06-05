@@ -1,0 +1,88 @@
+{
+  "_from": "asyncbox@^2.3.0",
+  "_id": "asyncbox@2.3.2",
+  "_inBundle": false,
+  "_integrity": "sha512-T8oqC0MuQ1QnamFtjjCzn9Mg4zexf6zr85yon7JjjlYeySwFz+vA4JsAqLs8xr/KpPNpUsoE1TGZGV6qxzUEDw==",
+  "_location": "/asyncbox",
+  "_phantomChildren": {
+    "assertion-error": "1.1.0",
+    "deep-eql": "0.1.3",
+    "type-detect": "1.0.0"
+  },
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "asyncbox@^2.3.0",
+    "name": "asyncbox",
+    "escapedName": "asyncbox",
+    "rawSpec": "^2.3.0",
+    "saveSpec": null,
+    "fetchSpec": "^2.3.0"
+  },
+  "_requiredBy": [
+    "/appium-xcode"
+  ],
+  "_resolved": "https://registry.npmjs.org/asyncbox/-/asyncbox-2.3.2.tgz",
+  "_shasum": "df31086e28825090284480ea92c67ea038dc6f98",
+  "_spec": "asyncbox@^2.3.0",
+  "_where": "D:\\DisneyMobileAutomation\\DisneyAutomation\\node_modules\\appium-xcode",
+  "author": {
+    "name": "jlipps@gmail.com"
+  },
+  "bin": {},
+  "bugs": {
+    "url": "https://github.com/jlipps/asyncbox/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "babel-runtime": "=5.8.24",
+    "bluebird": "^2.9.34",
+    "chai": "^3.2.0",
+    "chai-as-promised": "^5.1.0",
+    "es6-mapify": "^1.1.0",
+    "lodash": "^4.17.4",
+    "source-map-support": "^0.3.1"
+  },
+  "deprecated": false,
+  "description": "A collection of small async/await utilities",
+  "devDependencies": {
+    "appium-gulp-plugins": "^2.2.0",
+    "eslint": "^3.18.0",
+    "eslint-config-appium": "^2.0.1",
+    "eslint-plugin-babel": "^3.3.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-mocha": "^4.7.0",
+    "eslint-plugin-promise": "^3.3.1",
+    "gulp": "^3.8.11",
+    "request": "^2.47.0",
+    "should": "^7.0.4"
+  },
+  "directories": {
+    "lib": "./lib"
+  },
+  "engines": [
+    "node"
+  ],
+  "homepage": "https://github.com/jlipps/asyncbox#readme",
+  "license": "Apache-2.0",
+  "main": "./build/lib/asyncbox.js",
+  "name": "asyncbox",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jlipps/asyncbox.git"
+  },
+  "scripts": {
+    "build": "gulp transpile",
+    "e2e-test": "gulp e2e-test",
+    "lint": "gulp eslint",
+    "prepublish": "gulp prepublish",
+    "test": "gulp once",
+    "watch": "gulp watch"
+  },
+  "tags": [
+    "async/await",
+    "es7",
+    "async"
+  ],
+  "version": "2.3.2"
+}
