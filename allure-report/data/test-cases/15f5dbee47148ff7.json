@@ -1,12 +1,12 @@
 {
-  "uid" : "318ce57e81433d81",
-  "name" : "Leaves",
-  "fullName" : "mEasy Application.Leaves",
-  "historyId" : "66b7d3410624f1d5f68739efe975d9e",
+  "uid" : "15f5dbee47148ff7",
+  "name" : "TechM Locations",
+  "fullName" : "mEasy Application.TechM Locations",
+  "historyId" : "40c224329ec4378e1018a6a41653ecad",
   "time" : {
-    "start" : 1528205626204,
-    "stop" : 1528205856701,
-    "duration" : 230497
+    "start" : 1528260085149,
+    "stop" : 1528260174151,
+    "duration" : 89002
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -18,310 +18,325 @@
     "steps" : [ {
       "name" : "Launching Application",
       "time" : {
-        "start" : 1528205628217,
-        "stop" : 1528205650428,
-        "duration" : 22211
+        "start" : 1528260087152,
+        "stop" : 1528260109516,
+        "duration" : 22364
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "hasContent" : false,
-      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "stepsCount" : 0,
+      "hasContent" : false
     }, {
       "name" : "Entering Email ID",
       "time" : {
-        "start" : 1528205650428,
-        "stop" : 1528205670303,
-        "duration" : 19875
+        "start" : 1528260109516,
+        "stop" : 1528260119879,
+        "duration" : 10363
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "hasContent" : false,
-      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "stepsCount" : 0,
+      "hasContent" : false
     }, {
       "name" : "Entering Password",
       "time" : {
-        "start" : 1528205670303,
-        "stop" : 1528205690935,
-        "duration" : 20632
+        "start" : 1528260119879,
+        "stop" : 1528260130118,
+        "duration" : 10239
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "hasContent" : false,
-      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "stepsCount" : 0,
+      "hasContent" : false
     }, {
       "name" : "Tap on Login Button",
       "time" : {
-        "start" : 1528205690935,
-        "stop" : 1528205698788,
-        "duration" : 7853
+        "start" : 1528260130118,
+        "stop" : 1528260131206,
+        "duration" : 1088
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "hasContent" : false,
-      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "stepsCount" : 0,
+      "hasContent" : false
     }, {
       "name" : "Tap on Button",
       "time" : {
-        "start" : 1528205698788,
-        "stop" : 1528205714831,
-        "duration" : 16043
+        "start" : 1528260131206,
+        "stop" : 1528260139967,
+        "duration" : 8761
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "hasContent" : false,
-      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "stepsCount" : 0,
+      "hasContent" : false
     }, {
       "name" : "Tap on Button",
       "time" : {
-        "start" : 1528205714831,
-        "stop" : 1528205722302,
-        "duration" : 7471
+        "start" : 1528260139967,
+        "stop" : 1528260140981,
+        "duration" : 1014
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "hasContent" : false,
-      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "stepsCount" : 0,
+      "hasContent" : false
     }, {
       "name" : "Tap on Button",
       "time" : {
-        "start" : 1528205722302,
-        "stop" : 1528205729702,
-        "duration" : 7400
+        "start" : 1528260140981,
+        "stop" : 1528260141986,
+        "duration" : 1005
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "hasContent" : false,
-      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "stepsCount" : 0,
+      "hasContent" : false
     }, {
       "name" : "Tap on Button",
       "time" : {
-        "start" : 1528205729702,
-        "stop" : 1528205737093,
-        "duration" : 7391
+        "start" : 1528260141986,
+        "stop" : 1528260142954,
+        "duration" : 968
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "hasContent" : false,
-      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "stepsCount" : 0,
+      "hasContent" : false
     }, {
       "name" : "Tap on Button",
       "time" : {
-        "start" : 1528205737093,
-        "stop" : 1528205744563,
-        "duration" : 7470
+        "start" : 1528260142954,
+        "stop" : 1528260144225,
+        "duration" : 1271
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "hasContent" : false,
-      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "stepsCount" : 0,
+      "hasContent" : false
     }, {
       "name" : "Tap on Button",
       "time" : {
-        "start" : 1528205744563,
-        "stop" : 1528205752041,
-        "duration" : 7478
+        "start" : 1528260144225,
+        "stop" : 1528260145295,
+        "duration" : 1070
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "hasContent" : false,
-      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "stepsCount" : 0,
+      "hasContent" : false
     }, {
       "name" : "Tap on Button",
       "time" : {
-        "start" : 1528205752041,
-        "stop" : 1528205759393,
-        "duration" : 7352
+        "start" : 1528260145295,
+        "stop" : 1528260146449,
+        "duration" : 1154
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "hasContent" : false,
-      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "stepsCount" : 0,
+      "hasContent" : false
     }, {
       "name" : "Tap on Button",
       "time" : {
-        "start" : 1528205759393,
-        "stop" : 1528205766861,
-        "duration" : 7468
+        "start" : 1528260146449,
+        "stop" : 1528260147548,
+        "duration" : 1099
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "hasContent" : false,
-      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "stepsCount" : 0,
+      "hasContent" : false
     }, {
       "name" : "Entering search term",
       "time" : {
-        "start" : 1528205768877,
-        "stop" : 1528205789399,
-        "duration" : 20522
+        "start" : 1528260149550,
+        "stop" : 1528260160198,
+        "duration" : 10648
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "hasContent" : false,
-      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "stepsCount" : 0,
+      "hasContent" : false
     }, {
       "name" : "Tap on search Button",
       "time" : {
-        "start" : 1528205789399,
-        "stop" : 1528205797047,
-        "duration" : 7648
+        "start" : 1528260160198,
+        "stop" : 1528260161357,
+        "duration" : 1159
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "hasContent" : false,
-      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "stepsCount" : 0,
+      "hasContent" : false
     }, {
-      "name" : "Tap on Leave button",
+      "name" : "Tap on Asia Pacific",
       "time" : {
-        "start" : 1528205799070,
-        "stop" : 1528205806924,
-        "duration" : 7854
+        "start" : 1528260163381,
+        "stop" : 1528260164274,
+        "duration" : 893
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "hasContent" : false,
-      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "stepsCount" : 0,
+      "hasContent" : false
     }, {
-      "name" : "Tap on back",
+      "name" : "Tap on India",
       "time" : {
-        "start" : 1528205806924,
-        "stop" : 1528205817978,
-        "duration" : 11054
+        "start" : 1528260164274,
+        "stop" : 1528260166053,
+        "duration" : 1779
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "hasContent" : false,
-      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "stepsCount" : 0,
+      "hasContent" : false
     }, {
-      "name" : "Tap on back",
+      "name" : "Tap on Pune",
       "time" : {
-        "start" : 1528205817978,
-        "stop" : 1528205828196,
-        "duration" : 10218
+        "start" : 1528260166054,
+        "stop" : 1528260167582,
+        "duration" : 1528
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "hasContent" : false,
-      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Tap on Home Button",
+      "time" : {
+        "start" : 1528260167582,
+        "stop" : 1528260169197,
+        "duration" : 1615
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
     }, {
       "name" : "Tap on logout button",
       "time" : {
-        "start" : 1528205830212,
-        "stop" : 1528205837930,
-        "duration" : 7718
+        "start" : 1528260171212,
+        "stop" : 1528260171954,
+        "duration" : 742
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "hasContent" : false,
-      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "stepsCount" : 0,
+      "hasContent" : false
     }, {
       "name" : "Tap on ok button",
       "time" : {
-        "start" : 1528205837930,
-        "stop" : 1528205845617,
-        "duration" : 7687
+        "start" : 1528260171954,
+        "stop" : 1528260173184,
+        "duration" : 1230
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "hasContent" : false,
-      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "stepsCount" : 0,
+      "hasContent" : false
     }, {
       "name" : "Closing Application",
       "time" : {
-        "start" : 1528205845617,
-        "stop" : 1528205856701,
-        "duration" : 11084
+        "start" : 1528260173184,
+        "stop" : 1528260174151,
+        "duration" : 967
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "hasContent" : false,
-      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "stepsCount" : 0,
+      "hasContent" : false
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "hasContent" : true,
-    "stepsCount" : 20,
+    "shouldDisplayMessage" : false,
     "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false
+    "stepsCount" : 21,
+    "hasContent" : true
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -332,7 +347,7 @@
     "value" : "mEasy Application"
   }, {
     "name" : "testMethod",
-    "value" : "Leaves"
+    "value" : "TechM Locations"
   }, {
     "name" : "package",
     "value" : "mEasy Application"
@@ -350,6 +365,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "318ce57e81433d81.json",
+  "source" : "15f5dbee47148ff7.json",
   "parameterValues" : [ ]
 }

@@ -1,12 +1,12 @@
 {
-  "uid" : "deb15bb2ec0df3cf",
+  "uid" : "17e5013638aa804b",
   "name" : "Booking Audio Conference",
   "fullName" : "mEasy Application.Booking Audio Conference",
   "historyId" : "90ff75a81b5ec6ae46479d08f2498f6d",
   "time" : {
-    "start" : 1528205178643,
-    "stop" : 1528205398781,
-    "duration" : 220138
+    "start" : 1528259986896,
+    "stop" : 1528260085136,
+    "duration" : 98240
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -18,295 +18,295 @@
     "steps" : [ {
       "name" : "Launching Application",
       "time" : {
-        "start" : 1528205180653,
-        "stop" : 1528205202724,
-        "duration" : 22071
+        "start" : 1528259988899,
+        "stop" : 1528260010786,
+        "duration" : 21887
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "hasContent" : false,
-      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "stepsCount" : 0,
+      "hasContent" : false
     }, {
       "name" : "Entering Email ID",
       "time" : {
-        "start" : 1528205202724,
-        "stop" : 1528205222556,
-        "duration" : 19832
+        "start" : 1528260010786,
+        "stop" : 1528260020413,
+        "duration" : 9627
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "hasContent" : false,
-      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "stepsCount" : 0,
+      "hasContent" : false
     }, {
       "name" : "Entering Password",
       "time" : {
-        "start" : 1528205222556,
-        "stop" : 1528205242639,
-        "duration" : 20083
+        "start" : 1528260020413,
+        "stop" : 1528260030789,
+        "duration" : 10376
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "hasContent" : false,
-      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "stepsCount" : 0,
+      "hasContent" : false
     }, {
       "name" : "Tap on Login Button",
       "time" : {
-        "start" : 1528205242639,
-        "stop" : 1528205250385,
-        "duration" : 7746
+        "start" : 1528260030789,
+        "stop" : 1528260031929,
+        "duration" : 1140
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "hasContent" : false,
-      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "stepsCount" : 0,
+      "hasContent" : false
     }, {
       "name" : "Tap on Button",
       "time" : {
-        "start" : 1528205250385,
-        "stop" : 1528205257915,
-        "duration" : 7530
+        "start" : 1528260031929,
+        "stop" : 1528260043568,
+        "duration" : 11639
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "hasContent" : false,
-      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "stepsCount" : 0,
+      "hasContent" : false
     }, {
       "name" : "Tap on Button",
       "time" : {
-        "start" : 1528205257915,
-        "stop" : 1528205265183,
-        "duration" : 7268
+        "start" : 1528260043568,
+        "stop" : 1528260044493,
+        "duration" : 925
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "hasContent" : false,
-      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "stepsCount" : 0,
+      "hasContent" : false
     }, {
       "name" : "Tap on Button",
       "time" : {
-        "start" : 1528205265183,
-        "stop" : 1528205272590,
-        "duration" : 7407
+        "start" : 1528260044493,
+        "stop" : 1528260045507,
+        "duration" : 1014
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "hasContent" : false,
-      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "stepsCount" : 0,
+      "hasContent" : false
     }, {
       "name" : "Tap on Button",
       "time" : {
-        "start" : 1528205272590,
-        "stop" : 1528205279999,
-        "duration" : 7409
+        "start" : 1528260045507,
+        "stop" : 1528260046468,
+        "duration" : 961
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "hasContent" : false,
-      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "stepsCount" : 0,
+      "hasContent" : false
     }, {
       "name" : "Tap on Button",
       "time" : {
-        "start" : 1528205279999,
-        "stop" : 1528205287550,
-        "duration" : 7551
+        "start" : 1528260046468,
+        "stop" : 1528260047626,
+        "duration" : 1158
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "hasContent" : false,
-      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "stepsCount" : 0,
+      "hasContent" : false
     }, {
       "name" : "Tap on Button",
       "time" : {
-        "start" : 1528205287550,
-        "stop" : 1528205294954,
-        "duration" : 7404
+        "start" : 1528260047626,
+        "stop" : 1528260048647,
+        "duration" : 1021
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "hasContent" : false,
-      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "stepsCount" : 0,
+      "hasContent" : false
     }, {
       "name" : "Tap on Button",
       "time" : {
-        "start" : 1528205294954,
-        "stop" : 1528205302356,
-        "duration" : 7402
+        "start" : 1528260048647,
+        "stop" : 1528260049619,
+        "duration" : 972
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "hasContent" : false,
-      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "stepsCount" : 0,
+      "hasContent" : false
     }, {
       "name" : "Tap on Button",
       "time" : {
-        "start" : 1528205302356,
-        "stop" : 1528205309801,
-        "duration" : 7445
+        "start" : 1528260049619,
+        "stop" : 1528260050630,
+        "duration" : 1011
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "hasContent" : false,
-      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "stepsCount" : 0,
+      "hasContent" : false
     }, {
       "name" : "Entering search term",
       "time" : {
-        "start" : 1528205311823,
-        "stop" : 1528205332328,
-        "duration" : 20505
+        "start" : 1528260052645,
+        "stop" : 1528260063126,
+        "duration" : 10481
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "hasContent" : false,
-      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "stepsCount" : 0,
+      "hasContent" : false
     }, {
       "name" : "Tap on search Button",
       "time" : {
-        "start" : 1528205332328,
-        "stop" : 1528205340074,
-        "duration" : 7746
+        "start" : 1528260063126,
+        "stop" : 1528260064357,
+        "duration" : 1231
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "hasContent" : false,
-      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "stepsCount" : 0,
+      "hasContent" : false
     }, {
       "name" : "Entering Conference Name",
       "time" : {
-        "start" : 1528205342080,
-        "stop" : 1528205362413,
-        "duration" : 20333
+        "start" : 1528260066360,
+        "stop" : 1528260079094,
+        "duration" : 12734
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "hasContent" : false,
-      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "stepsCount" : 0,
+      "hasContent" : false
     }, {
       "name" : "Tap on Home Button",
       "time" : {
-        "start" : 1528205362413,
-        "stop" : 1528205370423,
-        "duration" : 8010
+        "start" : 1528260079094,
+        "stop" : 1528260080522,
+        "duration" : 1428
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "hasContent" : false,
-      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "stepsCount" : 0,
+      "hasContent" : false
     }, {
       "name" : "Tap on logout button",
       "time" : {
-        "start" : 1528205372446,
-        "stop" : 1528205380172,
-        "duration" : 7726
+        "start" : 1528260082535,
+        "stop" : 1528260083116,
+        "duration" : 581
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "hasContent" : false,
-      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "stepsCount" : 0,
+      "hasContent" : false
     }, {
       "name" : "Tap on ok button",
       "time" : {
-        "start" : 1528205380172,
-        "stop" : 1528205387824,
-        "duration" : 7652
+        "start" : 1528260083116,
+        "stop" : 1528260084223,
+        "duration" : 1107
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "hasContent" : false,
-      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "stepsCount" : 0,
+      "hasContent" : false
     }, {
       "name" : "Closing Application",
       "time" : {
-        "start" : 1528205387824,
-        "stop" : 1528205398781,
-        "duration" : 10957
+        "start" : 1528260084223,
+        "stop" : 1528260085135,
+        "duration" : 912
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "hasContent" : false,
-      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "stepsCount" : 0,
+      "hasContent" : false
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "hasContent" : true,
-    "stepsCount" : 19,
+    "shouldDisplayMessage" : false,
     "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false
+    "stepsCount" : 19,
+    "hasContent" : true
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -335,6 +335,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "deb15bb2ec0df3cf.json",
+  "source" : "17e5013638aa804b.json",
   "parameterValues" : [ ]
 }

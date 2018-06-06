@@ -14,7 +14,7 @@ var touchActionTap = function (message, driver, element) {
 
 	var mainTap = allure.createStep(message, function () {
 		return driver
-		.pause(7000)				
+		//.pause(2000)				
 		.waitForExist(element, 40000)
 			.touchAction(element, 'tap');
 	});
@@ -25,7 +25,7 @@ var touchActionTapCoordinate = function (message, driver, xco, yco) {
 
 	var mainTapco = allure.createStep(message, function () {
 		return driver
-			.pause(10000)
+		//	.pause(2000)
 			.touchAction({
 				action: 'tap', x: xco, y: yco
 			});
@@ -38,7 +38,7 @@ var setValue = function (message, driver, element, value) {
 
 	var setVal = allure.createStep(message, function () {
 		return driver
-			.pause(10000)
+			//.pause(2000)
 			.waitForExist(element, 30000)
 			.setValue(element, value);
 	});
@@ -72,7 +72,7 @@ var keys = function (message, driver) {
 	var key = allure.createStep(message, function () {
 
 		return driver
-			.pause(7000)
+			//.pause(2000)
 			.pressKeycode(84);
 	})
 	return key();
@@ -83,7 +83,7 @@ var getText = function (message, driver, element) {
 	var get = allure.createStep(message, function () {
 
 		return driver
-			.pause(7000)
+		//	.pause(2000)
 			.then(function () {
 				return console.log(driver.getText(element));
 			  })
@@ -97,7 +97,7 @@ var back = function (message, driver) {
 	var navigate = allure.createStep(message, function () {
 		
 		return driver
-		.pause(10000)
+		.pause(4000)
 			.back();
 	})
 	return navigate();
@@ -108,7 +108,7 @@ var closeApp = function (message, driver) {
 	var closeApplication = allure.createStep(message, function () {
 		
 		return driver
-		.pause(10000)
+	//	.pause(2000)
 			.closeApp();
 					})
 	return closeApplication();

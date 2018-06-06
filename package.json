@@ -25,12 +25,9 @@
     "wdio-appium-service": "0.2.3"
   },
   "scripts": {
-
     "test": "mocha ./Tests/test*.js --reporter mocha-allure-reporter",
     "GenerateReport": "allure generate allure-results --clean -o allure-report && allure open allure-report",
-    "testmEasy":  "mocha ./Tests/MEasy*.js --reporter mocha-allure-reporter && npm run GenerateReport"
-  
-
+    "testmEasy": "mocha ./mEasy/MEasy*.js --reporter mocha-allure-reporter && npm run GenerateReport"
   },
   "author": "Sanket",
   "license": "ISC"
