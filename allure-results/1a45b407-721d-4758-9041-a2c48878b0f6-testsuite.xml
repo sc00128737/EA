@@ -1,0 +1,46 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1528289455114' stop='1528289489005'>
+    <name>mEasy Application</name>
+    <title>mEasy Application</title>
+    <test-cases>
+        <test-case start='1528289455114' status='passed' stop='1528289489005'>
+            <name>Verify Home Page Logo</name>
+            <title>Verify Home Page Logo</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1528289457115' status='passed' stop='1528289480257'>
+                    <name>Launching Application</name>
+                    <title>Launching Application</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1528289480257' status='passed' stop='1528289482428'>
+                    <name>VErifying Measy Logo</name>
+                    <title>VErifying Measy Logo</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1528289482428' status='passed' stop='1528289484693'>
+                    <name>VErifying LanID Input field is displayed </name>
+                    <title>VErifying LanID Input field is displayed </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1528289484694' status='passed' stop='1528289486837'>
+                    <name>VErifying Password Input field is displayed </name>
+                    <title>VErifying Password Input field is displayed </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1528289486838' status='passed' stop='1528289489005'>
+                    <name>VErifying Login button field is displayed </name>
+                    <title>VErifying Login button field is displayed </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

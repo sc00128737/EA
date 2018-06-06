@@ -1,135 +1,135 @@
 <?xml version='1.0'?>
-<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1528260085149' stop='1528260174182'>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1528288865774' stop='1528288957037'>
     <name>mEasy Application</name>
     <title>mEasy Application</title>
     <test-cases>
-        <test-case start='1528260085149' status='passed' stop='1528260174151'>
-            <name>TechM Locations</name>
-            <title>TechM Locations</title>
+        <test-case start='1528288865774' status='passed' stop='1528288957037'>
+            <name>Display Holiday List</name>
+            <title>Display Holiday List</title>
             <labels/>
             <parameters/>
             <steps>
-                <step start='1528260087152' status='passed' stop='1528260109516'>
+                <step start='1528288867783' status='passed' stop='1528288891113'>
                     <name>Launching Application</name>
                     <title>Launching Application</title>
                     <attachments/>
                     <steps/>
                 </step>
-                <step start='1528260109516' status='passed' stop='1528260119879'>
+                <step start='1528288891114' status='passed' stop='1528288900768'>
                     <name>Entering Email ID</name>
                     <title>Entering Email ID</title>
                     <attachments/>
                     <steps/>
                 </step>
-                <step start='1528260119879' status='passed' stop='1528260130118'>
+                <step start='1528288900768' status='passed' stop='1528288911052'>
                     <name>Entering Password</name>
                     <title>Entering Password</title>
                     <attachments/>
                     <steps/>
                 </step>
-                <step start='1528260130118' status='passed' stop='1528260131206'>
+                <step start='1528288911052' status='passed' stop='1528288912127'>
                     <name>Tap on Login Button</name>
                     <title>Tap on Login Button</title>
                     <attachments/>
                     <steps/>
                 </step>
-                <step start='1528260131206' status='passed' stop='1528260139967'>
+                <step start='1528288912127' status='passed' stop='1528288920999'>
                     <name>Tap on Button</name>
                     <title>Tap on Button</title>
                     <attachments/>
                     <steps/>
                 </step>
-                <step start='1528260139967' status='passed' stop='1528260140981'>
+                <step start='1528288920999' status='passed' stop='1528288921975'>
                     <name>Tap on Button</name>
                     <title>Tap on Button</title>
                     <attachments/>
                     <steps/>
                 </step>
-                <step start='1528260140981' status='passed' stop='1528260141986'>
+                <step start='1528288921975' status='passed' stop='1528288923041'>
                     <name>Tap on Button</name>
                     <title>Tap on Button</title>
                     <attachments/>
                     <steps/>
                 </step>
-                <step start='1528260141986' status='passed' stop='1528260142954'>
+                <step start='1528288923041' status='passed' stop='1528288924153'>
                     <name>Tap on Button</name>
                     <title>Tap on Button</title>
                     <attachments/>
                     <steps/>
                 </step>
-                <step start='1528260142954' status='passed' stop='1528260144225'>
+                <step start='1528288924154' status='passed' stop='1528288925007'>
                     <name>Tap on Button</name>
                     <title>Tap on Button</title>
                     <attachments/>
                     <steps/>
                 </step>
-                <step start='1528260144225' status='passed' stop='1528260145295'>
+                <step start='1528288925007' status='passed' stop='1528288925981'>
                     <name>Tap on Button</name>
                     <title>Tap on Button</title>
                     <attachments/>
                     <steps/>
                 </step>
-                <step start='1528260145295' status='passed' stop='1528260146449'>
+                <step start='1528288925981' status='passed' stop='1528288926929'>
                     <name>Tap on Button</name>
                     <title>Tap on Button</title>
                     <attachments/>
                     <steps/>
                 </step>
-                <step start='1528260146449' status='passed' stop='1528260147548'>
+                <step start='1528288926929' status='passed' stop='1528288927925'>
                     <name>Tap on Button</name>
                     <title>Tap on Button</title>
                     <attachments/>
                     <steps/>
                 </step>
-                <step start='1528260149550' status='passed' stop='1528260160198'>
+                <step start='1528288929927' status='passed' stop='1528288940911'>
                     <name>Entering search term</name>
                     <title>Entering search term</title>
                     <attachments/>
                     <steps/>
                 </step>
-                <step start='1528260160198' status='passed' stop='1528260161357'>
+                <step start='1528288940911' status='passed' stop='1528288942134'>
                     <name>Tap on search Button</name>
                     <title>Tap on search Button</title>
                     <attachments/>
                     <steps/>
                 </step>
-                <step start='1528260163381' status='passed' stop='1528260164274'>
-                    <name>Tap on Asia Pacific</name>
-                    <title>Tap on Asia Pacific</title>
+                <step start='1528288944135' status='passed' stop='1528288944735'>
+                    <name>Tap on Americas</name>
+                    <title>Tap on Americas</title>
                     <attachments/>
                     <steps/>
                 </step>
-                <step start='1528260164274' status='passed' stop='1528260166053'>
-                    <name>Tap on India</name>
-                    <title>Tap on India</title>
+                <step start='1528288944735' status='passed' stop='1528288946109'>
+                    <name>Tap on US</name>
+                    <title>Tap on US</title>
                     <attachments/>
                     <steps/>
                 </step>
-                <step start='1528260166054' status='passed' stop='1528260167582'>
-                    <name>Tap on Pune</name>
-                    <title>Tap on Pune</title>
+                <step start='1528288946110' status='passed' stop='1528288951342'>
+                    <name>Verify Holiday is displayed </name>
+                    <title>Verify Holiday is displayed </title>
                     <attachments/>
                     <steps/>
                 </step>
-                <step start='1528260167582' status='passed' stop='1528260169197'>
-                    <name>Tap on Home Button</name>
-                    <title>Tap on Home Button</title>
+                <step start='1528288951343' status='passed' stop='1528288952407'>
+                    <name>Tap on  Home Button</name>
+                    <title>Tap on  Home Button</title>
                     <attachments/>
                     <steps/>
                 </step>
-                <step start='1528260171212' status='passed' stop='1528260171954'>
+                <step start='1528288954409' status='passed' stop='1528288954989'>
                     <name>Tap on logout button</name>
                     <title>Tap on logout button</title>
                     <attachments/>
                     <steps/>
                 </step>
-                <step start='1528260171954' status='passed' stop='1528260173184'>
+                <step start='1528288954990' status='passed' stop='1528288956040'>
                     <name>Tap on ok button</name>
                     <title>Tap on ok button</title>
                     <attachments/>
                     <steps/>
                 </step>
-                <step start='1528260173184' status='passed' stop='1528260174151'>
+                <step start='1528288956040' status='passed' stop='1528288957034'>
                     <name>Closing Application</name>
                     <title>Closing Application</title>
                     <attachments/>

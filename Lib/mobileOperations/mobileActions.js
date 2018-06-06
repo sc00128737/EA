@@ -14,8 +14,8 @@ var touchActionTap = function (message, driver, element) {
 
 	var mainTap = allure.createStep(message, function () {
 		return driver
-		//.pause(2000)				
-		.waitForExist(element, 40000)
+			//.pause(2000)				
+			.waitForExist(element, 40000)
 			.touchAction(element, 'tap');
 	});
 	return mainTap();
@@ -25,7 +25,7 @@ var touchActionTapCoordinate = function (message, driver, xco, yco) {
 
 	var mainTapco = allure.createStep(message, function () {
 		return driver
-		//	.pause(2000)
+			//	.pause(2000)
 			.touchAction({
 				action: 'tap', x: xco, y: yco
 			});
@@ -48,7 +48,7 @@ var swipeUp = function (message, driver, element, offset, speed) {
 
 	var scroll = allure.createStep(message, function () {
 		return driver
-			
+
 			.swipeUp(element, offset, speed);
 	})
 	return scroll();
@@ -59,7 +59,7 @@ var closeApp = function (message, driver) {
 	var closeApplication = allure.createStep(message, function () {
 
 		return driver
-			
+
 			.closeApp();
 		/* 	.reset(); */
 	})
@@ -83,11 +83,13 @@ var getText = function (message, driver, element) {
 	var get = allure.createStep(message, function () {
 
 		return driver
-		//	.pause(2000)
+			.pause(5000)
 			.then(function () {
-				return console.log(driver.getText(element));
-			  })
-			
+				return driver.getText(element);
+			})
+			.then(function (value) {
+				return console.log(value);
+			})
 	})
 	return get();
 }
@@ -95,9 +97,9 @@ var getText = function (message, driver, element) {
 var back = function (message, driver) {
 
 	var navigate = allure.createStep(message, function () {
-		
+
 		return driver
-		.pause(6000)
+			.pause(6000)
 			.back();
 	})
 	return navigate();
@@ -106,20 +108,39 @@ var back = function (message, driver) {
 var closeApp = function (message, driver) {
 
 	var closeApplication = allure.createStep(message, function () {
-		
+
 		return driver
-	//	.pause(2000)
+			//	
 			.closeApp();
-					})
+	})
 	return closeApplication();
 }
 
+var isDisplayed = function (message, driver, element) {
+
+	var displayed = allure.createStep(message, function () {
+
+		return driver
+			.pause(2000)
+			.then(function () {
+				return driver.isVisible(element);
+			})
+			.then(function (value) {
+				return console.log(value);
+			})
+		
+		})
+		return displayed();
+	}
+
+
 exports.init = init;
-exports.touchActionTap = touchActionTap;
-exports.swipeUp = swipeUp;
-exports.closeApp = closeApp;
-exports.setValue = setValue;
-exports.keys = keys;
-exports.getText = getText;
-exports.touchActionTapCoordinate = touchActionTapCoordinate;
-exports.back = back;
+	exports.touchActionTap = touchActionTap;
+	exports.swipeUp = swipeUp;
+	exports.closeApp = closeApp;
+	exports.setValue = setValue;
+	exports.keys = keys;
+	exports.getText = getText;
+	exports.touchActionTapCoordinate = touchActionTapCoordinate;
+	exports.back = back;
+	exports.isDisplayed = isDisplayed;

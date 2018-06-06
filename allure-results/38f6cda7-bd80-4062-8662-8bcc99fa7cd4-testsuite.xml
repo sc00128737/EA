@@ -1,0 +1,60 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1528288957058' stop='1528289054984'>
+    <name>mEasy Application</name>
+    <title>mEasy Application</title>
+    <test-cases>
+        <test-case start='1528288957059' status='failed' stop='1528289054964'>
+            <name>Booking Audio Conference</name>
+            <title>Booking Audio Conference</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1528288959085' status='passed' stop='1528288982089'>
+                    <name>Launching Application</name>
+                    <title>Launching Application</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1528288982089' status='passed' stop='1528288991873'>
+                    <name>Entering Email ID</name>
+                    <title>Entering Email ID</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1528288991873' status='passed' stop='1528289002015'>
+                    <name>Entering Password</name>
+                    <title>Entering Password</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1528289002015' status='passed' stop='1528289003054'>
+                    <name>Tap on Login Button</name>
+                    <title>Tap on Login Button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1528289003054' status='failed' stop='1528289043060'>
+                    <name>Tap on Button</name>
+                    <title>Tap on Button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1528289043064' status='passed' stop='1528289054964'>
+                    <name>Attached Screenshot</name>
+                    <title>Attached Screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='b7a6ba5c-bbe6-4bd4-939e-398e77b8fe44-attachment.jpeg' type='image/jpeg' size='655815'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>element ("android=new UiSelector().resourceId("com.techmahindra.measy:id/button1")") still not existing after 40000ms</message>
+                <stack-trace>Error: element ("android=new UiSelector().resourceId("com.techmahindra.measy:id/button1")") still not existing after 40000ms
+                    at elements("android=new UiSelector().resourceId("com.techmahindra.measy:id/button1")") - node_modules\webdriverio\build\lib\commands\isExisting.js:46:17
+                    at isExisting("android=new UiSelector().resourceId("com.techmahindra.measy:id/button1")") - node_modules\webdriverio\build\lib\commands\waitForExist.js:67:22</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

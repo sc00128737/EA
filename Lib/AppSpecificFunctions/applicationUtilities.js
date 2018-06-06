@@ -123,6 +123,9 @@ function searchItemAndOpen(modules, driver, searchTerm) {
         return modules.mobileActions.touchActionTap("Tap on US", driver, modules.androidOR.US);
       })
       .then(function () {
+        return modules.mobileActions.getText("Verify Holiday is displayed ", driver, modules.androidOR.HeaderVerification);
+      })
+      .then(function () {
         return modules.mobileActions.touchActionTap("Tap on  Home Button", driver, modules.androidOR.HomeIcon);
       })
     }
@@ -132,6 +135,9 @@ function searchItemAndOpen(modules, driver, searchTerm) {
         .pause(2000)
         .then(function () {
           return modules.mobileActions.setValue("Entering Conference Name", driver,modules.androidOR.confNameTb,modules.testData.Login.ConfName);
+        })
+        .then(function () {
+          return modules.mobileActions.getText("Verify Audio Conference  is displayed ", driver, modules.androidOR.HeaderVerification);
         })
         .then(function () {
           return modules.mobileActions.touchActionTap("Tap on Home Button", driver, modules.androidOR.HomeIcon);
@@ -151,6 +157,9 @@ function searchItemAndOpen(modules, driver, searchTerm) {
             return modules.mobileActions.touchActionTap("Tap on Pune", driver, modules.androidOR.Pune);
           })
           .then(function () {
+            return modules.mobileActions.getText("Verify Locations are displayed ", driver, modules.androidOR.LocationsID);
+          })
+          .then(function () {
             return modules.mobileActions.touchActionTap("Tap on Home Button", driver, modules.androidOR.HomeIcon);
           })
         }
@@ -160,6 +169,9 @@ function searchItemAndOpen(modules, driver, searchTerm) {
             .pause(2000)
             .then(function () {
               return modules.mobileActions.touchActionTap("Tap on Leave button", driver, modules.androidOR.LeavesId);
+            })
+            .then(function () {
+              return modules.mobileActions.getText("Verify My Benefits Page is displayed ", driver, modules.androidOR.MyBenefitsID);
             })
             .then(function () {
               return modules.mobileActions.back("Tap on back", driver);
@@ -183,6 +195,29 @@ function searchItemAndOpen(modules, driver, searchTerm) {
             })
           }
 
+          function VerifyHomePage(modules, driver) {
+            return driver
+            .pause(2000)
+            .then(function () {
+              return modules.mobileActions.init("Launching Application", driver);
+            })
+            .then(function () {
+              return modules.mobileActions.isDisplayed("VErifying Measy Logo", driver,modules.androidOR.MEasyLogo);
+            })
+            .then(function () {
+              return modules.mobileActions.isDisplayed("VErifying LanID Input field is displayed ", driver,modules.androidOR.LanId);
+            })
+            .then(function () {
+              return modules.mobileActions.isDisplayed("VErifying Password Input field is displayed ", driver,modules.androidOR.mEasyPassword);
+            })
+            .then(function () {
+              return modules.mobileActions.isDisplayed("VErifying Login button field is displayed ", driver,modules.androidOR.mEasyLogin);
+            })
+
+            
+          }
+
+
 exports.launchAppNemo = launchAppNemo;
 exports.launchAndLoginmEasy = launchAndLoginmEasy;
 exports.searchItemAndOpen = searchItemAndOpen;
@@ -191,5 +226,6 @@ exports.bookAudioConference = bookAudioConference;
 exports.openLocations = openLocations;
 exports.checkLeaves = checkLeaves;
 exports.logOut = logOut;
+exports.VerifyHomePage = VerifyHomePage;
 
 

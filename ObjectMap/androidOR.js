@@ -70,6 +70,16 @@ LeavesId: 'android=new UiSelector().resourceId("com.techmahindra.measy:id/iv1")'
 
 LogoutButton: 'android=new UiSelector().resourceId("com.techmahindra.measy:id/logoutIV")',
 
-okButton : 	'android=new UiSelector().resourceId("android:id/button2")'
+okButton : 	'android=new UiSelector().resourceId("android:id/button2")',
+
+HeaderVerification: 'android=new UiSelector().resourceId("com.techmahindra.measy:id/tv_header")',
+
+
+MEasyLogo: 'android=new UiSelector().resourceId("com.techmahindra.measy:id/app_logo")',
+
+MyBenefitsID: 'android=new UiSelector().resourceId("com.techmahindra.measy:id/textView17")',
+
+LocationsID: 'android=new UiSelector().resourceId("com.techmahindra.measy:id/select_option_btn")'
+
 
 }

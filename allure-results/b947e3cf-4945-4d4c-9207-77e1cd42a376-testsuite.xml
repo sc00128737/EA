@@ -1,0 +1,137 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1528289361606' stop='1528289455089'>
+    <name>mEasy Application</name>
+    <title>mEasy Application</title>
+    <test-cases>
+        <test-case start='1528289361607' status='failed' stop='1528289455089'>
+            <name>Leaves</name>
+            <title>Leaves</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1528289363608' status='passed' stop='1528289386698'>
+                    <name>Launching Application</name>
+                    <title>Launching Application</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1528289386698' status='passed' stop='1528289396431'>
+                    <name>Entering Email ID</name>
+                    <title>Entering Email ID</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1528289396431' status='passed' stop='1528289406632'>
+                    <name>Entering Password</name>
+                    <title>Entering Password</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1528289406632' status='passed' stop='1528289407769'>
+                    <name>Tap on Login Button</name>
+                    <title>Tap on Login Button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1528289407769' status='passed' stop='1528289418061'>
+                    <name>Tap on Button</name>
+                    <title>Tap on Button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1528289418061' status='passed' stop='1528289418909'>
+                    <name>Tap on Button</name>
+                    <title>Tap on Button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1528289418909' status='passed' stop='1528289419881'>
+                    <name>Tap on Button</name>
+                    <title>Tap on Button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1528289419881' status='passed' stop='1528289420974'>
+                    <name>Tap on Button</name>
+                    <title>Tap on Button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1528289420974' status='passed' stop='1528289421944'>
+                    <name>Tap on Button</name>
+                    <title>Tap on Button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1528289421944' status='passed' stop='1528289422864'>
+                    <name>Tap on Button</name>
+                    <title>Tap on Button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1528289422864' status='passed' stop='1528289423858'>
+                    <name>Tap on Button</name>
+                    <title>Tap on Button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1528289423858' status='passed' stop='1528289424781'>
+                    <name>Tap on Button</name>
+                    <title>Tap on Button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1528289426781' status='passed' stop='1528289437240'>
+                    <name>Entering search term</name>
+                    <title>Entering search term</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1528289437240' status='passed' stop='1528289438348'>
+                    <name>Tap on search Button</name>
+                    <title>Tap on search Button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1528289440349' status='passed' stop='1528289441134'>
+                    <name>Tap on Leave button</name>
+                    <title>Tap on Leave button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1528289441134' status='failed' stop='1528289446184'>
+                    <name>Verify My Benefits Page is displayed </name>
+                    <title>Verify My Benefits Page is displayed </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1528289446185' status='passed' stop='1528289455089'>
+                    <name>Attached Screenshot</name>
+                    <title>Attached Screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='1ea101ca-24bd-4db9-8c1b-2b296a7ee74c-attachment.jpeg' type='image/jpeg' size='225890'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>An element could not be located on the page using the given search parameters ("android=new UiSelector().resourceId("com.techmahindra.measy:id/textView17")").</message>
+                <stack-trace>Error: An element could not be located on the page using the given search parameters ("android=new UiSelector().resourceId("com.techmahindra.measy:id/textView17")").
+                    at new CommandError (node_modules\webdriverio\build\lib\utils\ErrorHandler.js:138:12)
+                    at Object.&lt;anonymous> (node_modules\webdriverio\build\lib\commands\getText.js:23:19)
+                    at Object.exec (node_modules\webdriverio\build\lib\helpers\safeExecute.js:28:24)
+                    at Object.resolve (node_modules\webdriverio\build\lib\webdriverio.js:191:29)
+                    at node_modules\webdriverio\build\lib\webdriverio.js:540:32
+                    at _fulfilled (node_modules\webdriverio\node_modules\q\q.js:854:54)
+                    at self.promiseDispatch.done (node_modules\webdriverio\node_modules\q\q.js:883:30)
+                    at Promise.promise.promiseDispatch (node_modules\webdriverio\node_modules\q\q.js:816:13)
+                    at node_modules\webdriverio\node_modules\q\q.js:624:44
+                    at runSingle (node_modules\webdriverio\node_modules\q\q.js:137:13)
+                    at flush (node_modules\webdriverio\node_modules\q\q.js:125:13)
+                    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+                    at process._tickDomainCallback (internal/process/next_tick.js:218:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
