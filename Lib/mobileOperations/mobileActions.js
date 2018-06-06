@@ -97,7 +97,7 @@ var back = function (message, driver) {
 	var navigate = allure.createStep(message, function () {
 		
 		return driver
-		.pause(4000)
+		.pause(6000)
 			.back();
 	})
 	return navigate();
